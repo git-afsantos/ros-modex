@@ -1,6 +1,6 @@
 ---
-name: :rocket: Feature request
-about: Suggest an idea for this project :bulb:
+name: ":rocket: Feature request"
+about: "Suggest an idea for this project :bulb:"
 title: ''
 labels: enhancement
 assignees:
