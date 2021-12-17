@@ -1,7 +1,7 @@
 ---
-name: Bug report
+name: ":bug: Bug report"
 about: 'If something isn''t working :wrench:'
-title: "[BUG] Unexpected Behaviour"
+title: ''
 labels: bug
 assignees: ''
 
