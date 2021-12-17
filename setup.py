@@ -12,8 +12,8 @@ from setuptools import find_packages, setup
 # Constants
 ###############################################################################
 
-PROJECT = 'bake-a-py'
-PYTHON_PKG = 'bakeapy'
+PROJECT = 'ros-modex'
+PYTHON_PKG = 'rosmodex'
 HERE = Path(__file__).parent
 
 ###############################################################################
@@ -39,14 +39,14 @@ setup(
         'local_scheme': 'dirty-tag',
         'fallback_version': '0.1.0',
     },
-    description='Variability analysis tool for ROS systems',
+    description='A model extraction and analysis tool for ROS systems',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     url=f'https://github.com/git-afsantos/{PROJECT}',
     author='André Santos',
     author_email='haros.framework@gmail.com',
     license='MIT',
-    keywords='ros, variability, software product lines, feature models',
+    keywords='ros, variability, model extraction, feature models',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     include_package_data=True,
