@@ -5,7 +5,7 @@
 # Imports
 ###############################################################################
 
-import bakeapy
+import rosmodex
 
 ###############################################################################
 # Tests
@@ -17,6 +17,6 @@ def test_import_was_ok():
 
 
 def test_pkg_has_version():
-    assert hasattr(bakeapy, '__version__')
-    assert isinstance(bakeapy.__version__, str)
-    assert bakeapy.__version__ != ''
+    assert hasattr(rosmodex, '__version__')
+    assert isinstance(rosmodex.__version__, str)
+    assert rosmodex.__version__ != ''
